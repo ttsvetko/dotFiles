@@ -12,3 +12,9 @@ Thumbs.db
 
 # IntelliJIDEA project folder
 .idea
+
+# compass cash
+.sass-cache
+
+# npm modules folder
+node_modules
