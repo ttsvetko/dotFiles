@@ -1,20 +1,9 @@
-# EditorConfig is awesome: http://EditorConfig.org
-
-# top-most EditorConfig file
+# editorconfig.org
 root = true
 
-# set to tab or space to use hard tabs or soft tabs respectively
-indent_style = space
-
-# a whole number defining the number of columns used for each indentation level and the width of soft tabs (when supported).
-# When set to tab, the value of tab_width (if specified) will be used
-indent_size = 4
-
-# set to latin1, utf-8, utf-8-bom, utf-16be or utf-16le to control the character set. Use of utf-8-bom is discouraged
+[*]
+indent_style = tab
+end_of_line = lf
 charset = utf-8
-
-# set to true to remove any whitespace characters preceding newline characters and false to ensure it doesn't
 trim_trailing_whitespace = true
-
-# set to true ensure file ends with a newline when saving and false to ensure it doesn't
 insert_final_newline = true
